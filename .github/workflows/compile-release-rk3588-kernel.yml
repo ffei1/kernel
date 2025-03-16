@@ -65,10 +65,10 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk3588-ophub"
+        default: "-rk3588-flippy-2412a"
         type: choice
         options:
-          - -rk3588-ophub
+          - -rk3588-flippy-2412a
           - -happy-new-year
           - -dragon-boat-festival
           - -mid-autumn-festival
